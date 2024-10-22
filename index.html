@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="result-div">
+            <p id="result">0</p>
+        </div>
+        <div class="symbols" id="type1">
+            <button type="button" onclick="Num('%')">%</button>
+            <button type="button" onclick="Num('')">%</button>
+            <button type="button" onclick="Num('CE')">CE</button>
+            <button type="button" onclick="Clear()">C</button>
+        </div>
+        <div class="num_set_1" id="type1">
+            <button type="button" onclick="Num('1')">1</button>
+            <button type="button" onclick="Num('2')">2</button>
+            <button type="button" onclick="Num('3')">3</button>
+            <button type="button" onclick="Num('-')">-</button>
+        </div>
+        <div class="num_set_2" id="type1">
+            <button type="button" onclick="Num('4')">4</button>
+            <button type="button" onclick="Num('5')">5</button>
+            <button type="button" onclick="Num('6')">6</button>
+            <button type="button" onclick="Num('%')">%</button>
+        </div>
+        <div class="num_set_3" id="type1">
+            <button type="button" onclick="Num('7')">7</button>
+            <button type="button" onclick="Num('8')">8</button>
+            <button type="button" onclick="Num('9')">9</button>
+            <button type="button" onclick="Num('*')">X</button>
+        </div>
+        <div class="num_set_4" id="type1">
+            <button type="button" onclick="Num('.')">.</button>
+            <button type="button" onclick="Num('0')" >0</button>
+            <button type="button" onclick="Result('=')">=</button>
+            <button type="button" onclick="Num('+')">+</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
